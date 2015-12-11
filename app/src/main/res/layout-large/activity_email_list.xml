@@ -9,6 +9,10 @@
 
     <!-- TODO: add fragment -->
     <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showEmail"/>
+    <fragment
         android:id="@+id/fragment_email_list"
         android:layout_height="wrap_content"
         android:layout_width="0dp"

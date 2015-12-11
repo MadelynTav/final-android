@@ -4,6 +4,7 @@
     >
 
   <!-- TODO add permission to connect to the internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
   <application
       android:name=".EmailApplication"
@@ -15,6 +16,14 @@
       >
 
     <!-- TODO add main launcher activity -->
+      <activity android:name=".ui.LoginActivity"
+          android:label="Login"
+          android:theme="@style/AppTheme">
+      <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      </activity>
 
     <activity
         android:name=".ui.EmailListActivity"

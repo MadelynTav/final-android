@@ -9,6 +9,12 @@
     tools:context=".ItemsListActivity" >
 
     <!-- TODO: add fragment -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame">
+    </FrameLayout>
+
     <fragment
         android:id="@+id/fragment_email_list"
         android:layout_width="wrap_content"
